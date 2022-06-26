@@ -21,7 +21,7 @@ main() {
     printf("\\");   /* escape character itself */
     
     /* different ways to write escape sequences     */
-    printf("newline\n);         /* using character  */
+    printf("newline\n");         /* using character  */
     printf("newline%d",10);     /* using decimal    */
     printf("newline%d",0x0A);   /* using hex        */
     
