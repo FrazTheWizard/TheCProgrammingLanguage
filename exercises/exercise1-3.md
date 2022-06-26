@@ -27,6 +27,8 @@ main() {
 ```
 
 ## Output
-<image src="../assets/exercise1-3output.jpg" alt="output for exercise1-3" height=200 />
+<p align="center">
+    <image src="../assets/exercise1-3output.jpg" alt="output for exercise1-3" height=400 />
+</p>
 
 [Back to Main](../readme.md)
