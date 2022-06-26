@@ -2,7 +2,8 @@
 > Modify the temperature conversion program to print a heading above the table. 
 
 ## Process
-Straight forward, just added a `printf` statement. Interesting that float conversion is implicit though...
+Straight forward, just added a `printf` statement.\
+Interesting that float conversion is implicit though...
 ## Final Code
 ```c
 #include <stdio.h>
