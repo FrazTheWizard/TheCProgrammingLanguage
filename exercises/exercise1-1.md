@@ -15,4 +15,16 @@ main() {
     printf("hello, world\n");
 }
 ```
+
+## Output
+Without `-ansi` flag (Errors!)
+<p align="center">
+    <image src="../assets/exercise1-1_output1.jpg" alt="output 1 for exercise1-1" />    
+</p>
+
+With `-ansi` flag
+<p align="center">
+    <image src="../assets/exercise1-1_output2.jpg" alt="output 2 for exercise1-1" />   
+</p>
+
 [Back to Main](../readme.md)
