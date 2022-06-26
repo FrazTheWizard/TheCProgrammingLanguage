@@ -26,4 +26,7 @@ main() {
 }
 ```
 
+## Output
+<image src="../assets/exercise1-3.jpg" alt="output for exercise1-3" height=200 />
+
 [Back to Main](../readme.md)
