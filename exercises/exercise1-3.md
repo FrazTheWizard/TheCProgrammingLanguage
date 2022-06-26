@@ -28,7 +28,7 @@ main() {
 
 ## Output
 <p align="center">
-    <image src="../assets/exercise1-3output.jpg" alt="output for exercise1-3" />
+    <image src="../assets/exercise1-3_output.jpg" alt="output for exercise1-3" />
 </p>
 
 [Back to Main](../readme.md)
