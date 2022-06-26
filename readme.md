@@ -5,4 +5,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 
 ## Table of Contents
 1. [Exercise 1-1 : print hello world](exercises/exercise1-1.md)
-2. [Exercise 1-2 : printf escape characters]()
+2. [Exercise 1-2 : printf escape characters](exercises/exercise1-2.md)
