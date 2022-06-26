@@ -1,5 +1,5 @@
 # The C Programming Language - Exercises
-My journey through the classic C programing book by Dennis Ritchie and Brian Kernighan
+My journey going through all the exercises in the popular book by Dennis Ritchie and Brian Kernighan 
 
 <image src="assets/TheCProgrammingLanguageBook.png" alt="The C Programming Language" height=200 />
 
