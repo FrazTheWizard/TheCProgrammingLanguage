@@ -3,6 +3,7 @@
 
 ## Process
 Straight forward, just added a `printf` statement.\
+\
 Interesting that float conversion is implicit though...
 ## Final Code
 ```c
