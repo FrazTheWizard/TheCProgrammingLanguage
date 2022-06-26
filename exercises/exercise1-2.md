@@ -20,10 +20,10 @@ main() {
     printf("\"");   /* double apostrophe */
     printf("\\");   /* escape character itself */
     
-    /* different ways to write escape sequences     */
-    printf("newline\n");         /* using character  */
-    printf("newline%d",10);     /* using decimal    */
-    printf("newline%d",0x0A);   /* using hex        */
+    /* different ways to write escape sequences */
+    printf("newline\n");         /* using character */
+    printf("newline%d",10);     /* using decimal */
+    printf("newline%d",0x0A);   /* using hex */
     
     /* interesting ones */
     printf("\a");   /* makes a beep, but system sounds must be on */
