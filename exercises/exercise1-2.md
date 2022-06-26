@@ -13,7 +13,6 @@ Apart from the usual ones like tab, newline etc I found two interesting ones, *b
 #include <stdio.h>
 
 main() {
-
     printf("\n");   /* newline */
     printf("\t");   /* tab */
     printf("\'");   /* single apostrophe */
