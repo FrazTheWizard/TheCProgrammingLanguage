@@ -90,7 +90,7 @@ int printlineEntab(char s[], int len) {
 					else
 						tabs = 1;
 					
-					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add */
+					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add (if any)*/
 					blanks = (end - firstTabStop) % n; /* subsequent blanks to add (if any) */
 					
 					for(int j=0;j<tabs;j++)
