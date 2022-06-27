@@ -8,10 +8,11 @@
 This exercise took me two days and was not as complicated as the previous exercise, as I had worked through it quite thoroughly and figured out how
 this problem behaves
 
-The complicated part of this problem was the calculation of how many tabs vs spaces to replace tabs by
+The complicated part of this problem was the calculation of how many tabs vs spaces to replace blanks by
 
 **Solution Thinking in Steps**
-There are kind of three parts: before, middle and end
+
+There are kind of three parts to determine the calculation: before, middle and end
 
 a. before
 
@@ -25,8 +26,11 @@ b. end (optional)
 
 the remainder of the division of the rest of the sequence of blanks become spaces
 
-Also in direct answer to the question, I tink a single blank should be given preference, 
-although I didn't implement it here because I wanted to move on to other questions
+---
+Not sure if `initMod` is good name for that variable but couldn't think of a better name...
+
+Also in direct answer to the question, I think a single blank should be given preference, 
+although I didn't implement it here because I wanted to move on to more exciting questions
 
 ## Final Code
 ```c
@@ -81,7 +85,7 @@ int printlineEntab(char s[], int len) {
 					firstTabStop = start + initMod;
 					tabs = 1;
 					
-					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add */
+					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add (if any) */
 					blanks = (end - firstTabStop) % n; /* subsequent blanks to add (if any) */
 					
 					for(int j=0;j<tabs;j++)
