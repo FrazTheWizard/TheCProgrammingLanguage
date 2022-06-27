@@ -18,6 +18,7 @@ Two things I stuggled with are:
 1. Index's and Lens are 1 digit apart, either starting at 0 or 1
 2. Multiple tabs per line
 
+Also in direct answer to the question, I think *n* should be a variable
 
 **Solution Thinking in Steps**
 
