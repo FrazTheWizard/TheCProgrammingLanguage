@@ -16,7 +16,7 @@ There are kind of three parts to determine the calculation: before, middle and e
 
 a. before
 
-if the sequence of blanks does not cross at least one tab stop, remain spaces
+if the sequence of blanks does not cross at least one tab stop, remain blanks
 
 c. middle (optional)
 
