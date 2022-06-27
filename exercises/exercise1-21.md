@@ -125,7 +125,7 @@ int getline(char s[], int lim) {
 </p>
 
 <p align="center">
-    <image src="../assets/exercise1-21_output2.jpg" alt="output for exercise1-21" />
+    <image src="../assets/exercise1-21_outputtwo.jpg" alt="output for exercise1-21" />
 </p>
 
 [Back to Main](../readme.md)
