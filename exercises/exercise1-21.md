@@ -29,8 +29,7 @@ the remainder of the division of the rest of the sequence of blanks become space
 ---
 Not sure if `initMod` is good name for that variable but couldn't think of a better name...
 
-Also in direct answer to the question, I think a single blank should be given preference, 
-although I didn't implement it here because I wanted to move on to more exciting questions
+Also in direct answer to the question, I think a single blank should be given preference over a tab
 
 ## Final Code
 ```c
@@ -63,30 +62,36 @@ int printlineEntab(char s[], int len) {
 	
 	for(int i=0; i<len; i++){
 		if(s[i]==' '){
-			if(start==-1) /* begin blank sequence */
+			if(start==-1)		/* begin blank sequence */
 				start = i;	
-			else {} /* pass */			
+			else {}				/* pass */			
 		}
-		else { /* found character */
-			if(start==-1) /* was not counting blanks */
+		else {					/* found character */
+			if(start==-1)		/* was not counting blanks */
 				putchar(s[i]);
 			else {
 				end = i;
 				seqlen = end-start;
 				initMod = n - (start % n);
 				
-				if(initMod > seqlen) { /* blanks not long enough to make a tab */
+				if(initMod > seqlen) { 		/* blanks not long enough to make a tab */
 					for(int j=0; j<seqlen; j++)
 						putchar(' ');
 					putchar(s[i]);
-					start = -1; /* reset sequence of blanks */
+					start = -1;				/* reset sequence of blanks */
 				}					
-				else { /* blanks long enough to make a tab */
+				else {	 					/* blanks long enough to make a tab */
 					firstTabStop = start + initMod;
-					tabs = 1;
 					
-					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add (if any) */
-					blanks = (end - firstTabStop) % n; /* subsequent blanks to add (if any) */
+					if(initMod==1) { /* if space to first tab stop is 1, put a blank */
+						putchar(' ');
+						tabs = 0;
+					}
+					else
+						tabs = 1;
+					
+					tabs = tabs + ((end - firstTabStop) / n); 	/* subsequent tabs to add */
+					blanks = (end - firstTabStop) % n; 			/* subsequent blanks to add (if any) */
 					
 					for(int j=0;j<tabs;j++)
 						putchar('\t');
