@@ -62,25 +62,25 @@ int printlineEntab(char s[], int len) {
 	
 	for(int i=0; i<len; i++){
 		if(s[i]==' '){
-			if(start==-1)		/* begin blank sequence */
+			if(start==-1) /* begin blank sequence */
 				start = i;	
-			else {}				/* pass */			
+			else {} /* pass */			
 		}
-		else {					/* found character */
-			if(start==-1)		/* was not counting blanks */
+		else { /* found character */
+			if(start==-1) /* was not counting blanks */
 				putchar(s[i]);
 			else {
 				end = i;
 				seqlen = end-start;
 				initMod = n - (start % n);
 				
-				if(initMod > seqlen) { 		/* blanks not long enough to make a tab */
+				if(initMod > seqlen) { /* blanks not long enough to make a tab */
 					for(int j=0; j<seqlen; j++)
 						putchar(' ');
 					putchar(s[i]);
-					start = -1;				/* reset sequence of blanks */
+					start = -1; /* reset sequence of blanks */
 				}					
-				else {	 					/* blanks long enough to make a tab */
+				else { /* blanks long enough to make a tab */
 					firstTabStop = start + initMod;
 					
 					if(initMod==1) { /* if space to first tab stop is 1, put a blank */
@@ -90,8 +90,8 @@ int printlineEntab(char s[], int len) {
 					else
 						tabs = 1;
 					
-					tabs = tabs + ((end - firstTabStop) / n); 	/* subsequent tabs to add */
-					blanks = (end - firstTabStop) % n; 			/* subsequent blanks to add (if any) */
+					tabs = tabs + ((end - firstTabStop) / n); /* subsequent tabs to add */
+					blanks = (end - firstTabStop) % n; /* subsequent blanks to add (if any) */
 					
 					for(int j=0;j<tabs;j++)
 						putchar('\t');
