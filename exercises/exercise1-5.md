@@ -1,8 +1,9 @@
 # Exercise 1-4
-> Modify the temperature conversion program to print the table in reverse order, that is, fro 300 degrees to 0.
+> Modify the temperature conversion program to print the table in reverse order, that is, from 300 degrees to 0.
 
 ## Process
-Same temprature conversion program as previous, but using for loop and in reverse
+
+Same temperature conversion program as previous program, but using for loop and in reverse
 
 ## Final Code
 ```c
