@@ -85,7 +85,7 @@ int main() {
 
 ## Output
 <p align="center">
-    <image src="../assets/exercise1-22_outputone.jpg.jpg" alt="output for exercise1-22" />
+    <image src="../assets/exercise1-22_outputone.jpg" alt="output for exercise1-22" />
 </p>
 
 <p align="center">
