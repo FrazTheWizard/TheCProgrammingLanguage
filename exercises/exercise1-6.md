@@ -16,6 +16,7 @@ int main(){
 ```
 
 ## Output
+Ran program twice. First time input a random character which returns true. Second time input EOF character value, which returns false.
 <p align="center">
     <image src="../assets/exercise1-6_output.jpg" alt="output for exercise1-6" />
 </p>
