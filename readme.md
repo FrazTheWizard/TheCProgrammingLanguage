@@ -26,7 +26,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 19. [Exercise 1-19 : ](exercises/exercise1-19.md)
 20. [Exercise 1-20 : detab](exercises/exercise1-20.md)
 21. [Exercise 1-21 : entab](exercises/exercise1-21.md)
-22. [Exercise 1-22 : ](exercises/exercise1-22.md)
+22. [Exercise 1-22 : linefold](exercises/exercise1-22.md)
 23. [Exercise 1-23 : ](exercises/exercise1-23.md)
 24. [Exercise 1-24 : ](exercises/exercise1-24.md)
 25. [Exercise 1-25 : ](exercises/exercise1-25.md)
