@@ -10,6 +10,9 @@ based on the difficulty I had with the previous questions...
 
 But maybe it was just an easy question and I should feel good about it's simplicity 😀
 
+I'm starting to realise the way to go about solving these types of simple logic problems is 
+arrange the if-else stack from most important to least important and end with your 'normal' output 
+
 The only thing I might add to improve this program would be to remove the blank line left
 after removing a multicomment
 
