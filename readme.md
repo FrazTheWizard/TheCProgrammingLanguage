@@ -28,7 +28,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 21. [Exercise 1-21 : entab](exercises/exercise1-21.md)
 22. [Exercise 1-22 : linefold](exercises/exercise1-22.md)
 23. [Exercise 1-23 : remove comments](exercises/exercise1-23.md)
-24. [Exercise 1-24 : syntx validator](exercises/exercise1-24.md)
+24. [Exercise 1-24 : syntax validator](exercises/exercise1-24.md)
 25. [Exercise 1-25 : ](exercises/exercise1-25.md)
 26. [Exercise 1-26 : ](exercises/exercise1-26.md)
 27. [Exercise 1-27 : ](exercises/exercise1-27.md)
