@@ -120,9 +120,12 @@ int main(){
 }
 ```
 
+## Output
+Horizontal
 <p align="center">
     <image src="../assets/exercise1-13_output1.jpg" alt="output for exercise1-13" />
 </p>
+Vertical
 <p align="center">
     <image src="../assets/exercise1-13_output2.jpg" alt="output for exercise1-13" />
 </p>
