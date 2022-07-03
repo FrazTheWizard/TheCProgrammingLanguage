@@ -29,9 +29,5 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 22. [Exercise 1-22 : linefold](exercises/exercise1-22.md)
 23. [Exercise 1-23 : remove comments](exercises/exercise1-23.md)
 24. [Exercise 1-24 : syntax validator](exercises/exercise1-24.md)
-25. [Exercise 2-1 : ](exercises/exercise2-1.md)
+25. [Exercise 2-1 : type ranges](exercises/exercise2-1.md)
 26. [Exercise 2-2 : ](exercises/exercise2-2.md)
-27. 
-28. 
-29. 
-30. 
