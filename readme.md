@@ -18,7 +18,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 11. [Exercise 1-11 : test a program](exercises/exercise1-11.md)
 12. [Exercise 1-12 : print word per line](exercises/exercise1-12.md)
 13. [Exercise 1-13 : word length histograms](exercises/exercise1-13.md)
-14. [Exercise 1-14 : ](exercises/exercise1-14.md)
+14. [Exercise 1-14 : letter frequency histogram](exercises/exercise1-14.md)
 15. [Exercise 1-15 : ](exercises/exercise1-15.md)
 16. [Exercise 1-16 : ](exercises/exercise1-16.md)
 17. [Exercise 1-17 : ](exercises/exercise1-17.md)
@@ -29,9 +29,9 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 22. [Exercise 1-22 : linefold](exercises/exercise1-22.md)
 23. [Exercise 1-23 : remove comments](exercises/exercise1-23.md)
 24. [Exercise 1-24 : syntax validator](exercises/exercise1-24.md)
-25. [Exercise 1-25 : ](exercises/exercise1-25.md)
-26. [Exercise 1-26 : ](exercises/exercise1-26.md)
-27. [Exercise 1-27 : ](exercises/exercise1-27.md)
-28. [Exercise 1-28 : ](exercises/exercise1-28.md)
-29. [Exercise 1-29 : ](exercises/exercise1-29.md)
-30. [Exercise 1-30 : ](exercises/exercise1-30.md)
+25. [Exercise 2-1 : ](exercises/exercise2-1.md)
+26. [Exercise 2-2 : ](exercises/exercise2-2.md)
+27. 
+28. 
+29. 
+30. 
