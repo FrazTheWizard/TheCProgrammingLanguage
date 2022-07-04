@@ -30,7 +30,7 @@ float fahrToCel(int fahr){
 
 ## Output
 <p align="center">
-    <image src="../assets/exercise1-15_output.jpg" alt="output for exercise1-15" />
+    <image src="../assets/exercise1-15_output1.jpg" alt="output for exercise1-15" />
 </p>
 
 
