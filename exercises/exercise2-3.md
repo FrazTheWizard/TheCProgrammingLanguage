@@ -12,6 +12,7 @@ I suppose it happened because I've been working on these exercises everyday and 
 
 I added length checking to the function because it was continuing past the string, as it only terminates on non valid characters
 
+---
 I also stumbled accross two **strange properties of C**:
 1. You can add more characters to an array than the limit that you set
 
