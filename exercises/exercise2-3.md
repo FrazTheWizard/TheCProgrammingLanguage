@@ -13,7 +13,7 @@ I suppose it happened because I've been working on these exercises everyday and 
 I added length checking to the function because it was continuing past the string, as it only terminates on non valid characters
 
 ---
-I also stumbled accross two **strange properties of C**:
+I also stumbled across two **strange properties of C**:
 1. You can add more characters to an array than the limit that you set
 
 [Apparently](https://stackoverflow.com/questions/51841051/why-can-we-insert-more-elements-in-an-array-than-what-it-can-hold) its called 'undefined behavior' and C allows for it due to the old days when people understood the hardware 
