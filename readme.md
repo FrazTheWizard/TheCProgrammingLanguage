@@ -31,3 +31,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 24. [Exercise 1-24 : syntax validator](exercises/exercise1-24.md)
 25. [Exercise 2-1 : type ranges](exercises/exercise2-1.md)
 26. [Exercise 2-2 : conditions without && or ||](exercises/exercise2-2.md)
+27. [Exercise 2-3 : hex to int](exercises/exercise2-3.md)
