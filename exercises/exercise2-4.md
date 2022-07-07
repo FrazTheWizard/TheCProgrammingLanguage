@@ -33,9 +33,9 @@ int main(void) {
     
     /* 1 overlapping char */
     sx[0] = 'a'; sx[1] = 'b'; sx[2] = '\0';
-    sy[0] = 'c'; sy[1] = 'b'; sy[2] = '\0';
+    sy[0] = 'c'; sy[1] = 'a'; sy[2] = '\0';
     squeeze(sx, sy);
-    printf("\n\'b\' overlapping: "); 
+    printf("\n\'a\' overlapping: "); 
     printarray(sx);
     
     return 0;
