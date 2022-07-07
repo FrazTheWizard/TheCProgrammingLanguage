@@ -33,9 +33,9 @@ int main(void) {
     
     /* 1 overlapping char */
     sx[0] = 'a'; sx[1] = 'b'; sx[2] = '\0';
-    sy[0] = 'c'; sy[1] = 'a'; sy[2] = '\0';
+    sy[0] = 'c'; sy[1] = 'b'; sy[2] = '\0';
     squeeze(sx, sy);
-    printf("\n\'a\' overlapping: "); 
+    printf("\n\'b\' overlapping: "); 
     printarray(sx);
     
     return 0;
@@ -64,7 +64,7 @@ void printarray(char s[]) {
 
 
 <p align="center">
-    <image src="../assets/exercise2-4_output.jpg" alt="output for exercise2-4" />
+    <image src="../assets/exercise2-4_output1.jpg" alt="output for exercise2-4" />
 </p>
 
 [Back to Main](../readme.md)
