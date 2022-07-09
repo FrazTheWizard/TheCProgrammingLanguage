@@ -33,3 +33,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 26. [Exercise 2-2 : conditions without && or ||](exercises/exercise2-2.md)
 27. [Exercise 2-3 : hex to int](exercises/exercise2-3.md)
 28. [Exercise 2-4 : squeeze array](exercises/exercise2-4.md)
+29. [Exercise 2-5 : any matching chars](exercises/exercise2-5.md)
