@@ -34,4 +34,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 27. [Exercise 2-3 : hex to int](exercises/exercise2-3.md)
 28. [Exercise 2-4 : squeeze array](exercises/exercise2-4.md)
 29. [Exercise 2-5 : any matching chars](exercises/exercise2-5.md)
-30. [Exercise 2-5 : set bits](exercises/exercise2-6.md)
+30. [Exercise 2-6 : set bits](exercises/exercise2-6.md)
