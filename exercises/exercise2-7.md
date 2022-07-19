@@ -8,7 +8,7 @@
 Having spent week wrapping my head around the last exercise, this one took under an hour which is cool.
 It seems there are some common ideas with Bitwise operations. Masking with Nots/Bitshifting and Anding seem to be cool tricks to merge bits.
 
-As a side not, I've really found the windows calculator in programmer mode to be really helpful in walking through potential solutions
+As a side note, I've really found the windows calculator in programmer mode to be really helpful in walking through potential solutions
 
 ## Final Code
 
