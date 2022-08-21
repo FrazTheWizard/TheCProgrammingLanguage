@@ -58,16 +58,10 @@ int fastbitcount(unsigned x)
 
 ```
 
-
 ## Output
 
 <p align="center">
-
     <image src="../assets/exercise2-9.jpg" alt="output for exercise2-9" />
-
 </p>
-
-
-
 
 [Back to Main](../readme.md)
