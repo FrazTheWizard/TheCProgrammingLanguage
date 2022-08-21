@@ -40,3 +40,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 2-6 : set bits](exercises/exercise2-6.md)<br>
 [Exercise 2-7 : invert bits](exercises/exercise2-7.md)<br>
 [Exercise 2-8 : rotate bits](exercises/exercise2-8.md)<br>
+[Exercise 2-9 : count 1-bits](exercises/exercise2-9.md)<br>
