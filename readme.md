@@ -42,3 +42,6 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 2-8  : rotate bits](exercises/exercise2-8.md)<br>
 [Exercise 2-9  : count 1-bits](exercises/exercise2-9.md)<br>
 [Exercise 2-10 : ternary operator](exercises/exercise2-10.md)<br>
+
+### 3. Control Flow
+[Exercise 3-1 : alternate while loop](exercises/exercise3-1.md)<br>
