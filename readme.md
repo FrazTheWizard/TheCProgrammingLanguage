@@ -45,3 +45,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 
 ### 3. Control Flow
 [Exercise 3-1 : alternate while loop](exercises/exercise3-1.md)<br>
+[Exercise 3-2 : switch](exercises/exercise3-2.md)<br>
