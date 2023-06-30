@@ -8,7 +8,30 @@
 
 ## Process
 Completed over a few days. The main functionality is fairly straightforward.
-I found the other possibilities to be interesting.
+
+Found that writing the main functionality as a story to have helped:
+```
+if leading dash is found print dash
+set current index to one more value
+
+LOOKING FOR FROM
+we are looking for 'from' candidate alphaALPHAnumber
+if found 'from' candidate then looking for dash
+
+LOOKING FOR DASH
+if no dash, go back to looking for 'from' candidate
+if dash looking for 'to' candidate alphaALPHAnumber
+ 
+LOOKING FOR TO
+(SPECIALCASE)if found EOF, print dash
+if no candidate go back to looking for 'from' candidate
+if found 'to' candidate 
+if 'to' match casetype of 'from'
+print expansion
+set 'from' to value of 'to'
+looking for dash
+```
+I found the other potential sidecases to be interesting.
 
 After I completed the functionality, I refactored if statements to a switch statement with constant
 values. 
