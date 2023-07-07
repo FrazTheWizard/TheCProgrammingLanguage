@@ -41,6 +41,19 @@ more potential errors or potential undesirable behavior but I'm happy to leave i
 
 Also I was confused as to what 'taken literally' means, so I just printed it
 
+## Edit
+This is a note after finishing my solution. I found this [video](https://youtu.be/o0Ouhlh1SfA) that shares a solution to the problem, 
+with two things I didn't consider.
+
+1. Using string manipulation to find parameters
+   
+   my solution is for a input stream of incoming characters, rather than a string that I could just move forward or backward in 
+3. Using standard library comparisons
+   
+   I performed my comparisons by counting the exact ascii numbers
+   
+In hindsight, those two things would have made my code much more compact and readable. But I'm happy with my solution. Could be improved, but it works!
+
 ## Code
 ```c
 #include <stdio.h>
