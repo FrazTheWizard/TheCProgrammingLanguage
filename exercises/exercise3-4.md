@@ -14,7 +14,7 @@ At first with this exercise I had no idea how to tackle it or even what it was a
 variables this morning, so I was already onto the subject. Of course [Professor Brailsford](https://www.youtube.com/watch?v=lKTsv6iVxV4&pp) and
 [Ben Eater](https://www.youtube.com/watch?v=4qH4unVtJkE&pp) had the best explanations for twos complement.
 
-### Solution
+## Solution 1 - my attempt
 The reason it doesn't get the lowest negative number is because when it does the positive conversion, the number wraps around to the
 highest positive value, which is -1 lower than it needs to be, due to twos complement.
 
@@ -27,7 +27,25 @@ But this solution seems to be enough for me..
 
 This exercise took an afternoon of mostly research and playing around.
 
-## Code
+## Solution 2 - after looking at other solutions
+Came across this [solution](https://www.youtube.com/watch?v=Aj3hOHe-JqI) that just implemented a cast to unsigned int, which sent me down a rabbit hole, trying to understand. 
+
+```c
+do {     /* generate digits in reverse order */
+    s[i++] = (unsigned) n % 10 + '0';     /* get next digit */
+} while ((n = (unsigned) n / 10) > 0);    /* delete it */
+```
+
+I think it's a much better solution than mine as its shorter and also is more targeted to the actual problem or signed and unsigned conversion.
+
+Also, found this [explanation](https://onlinetoolz.net/unsigned-signed) helpful to understanding
+
+Basically the unsigned cast has no effect on any number that get's flipped in the line `n = -n` because those numbers are positive. The only number it will change the result is on the largest negative number `-2147483648` which will turn it into the positive number that is needed to make the correct conversion.
+
+## Note
+Also, had a confusing problem where the result was changing randomly after it had been calculated and discovered that the array length I created for the outputs didn't account for the `'\0'` null string termination character at the end and they overflowed into other arrays.
+
+## Code - my attempt
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -77,13 +95,34 @@ void itoa(int n, char s[])
 
 int main(){
     int num = -2147483648;
-    char output[11];
+    char output[12];
     int i;
     itoa(num, output);
     
     for(i=0;output[i]!='\0';i++){
         putchar(output[i]);
     }
+}
+```
+
+### Code 2 - after looking at other solutions
+```c
+/* itoa: convert n to characters in s */
+void itoa(int n, char s[])
+{
+    int i, sign;
+
+    if ((sign = n) < 0) /* record sign */ 
+        n = -n;         /* make n positive */
+        
+    i = 0;
+    do {        /* generate digits in reverse order */
+        s[i++] = (unsigned) n % 10 + '0';  /* get next digit */
+    } while ((n = (unsigned) n / 10) > 0);    /* delete it */
+    if (sign < 0)
+        s[i++] = '-';
+    s[i] = '\0';
+    reverse(s);
 }
 ```
 
