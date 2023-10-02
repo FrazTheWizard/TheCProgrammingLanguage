@@ -49,3 +49,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 3-3 : expand](exercises/exercise3-3.md)<br>
 [Exercise 3-4 : itoa](exercises/exercise3-4.md)<br>
 [Exercise 3-5 : itob](exercises/exercise3-5.md)<br>
+[Exercise 3-6 : itoa with min width](exercises/exercise3-6.md)<br>
