@@ -50,3 +50,6 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 3-4 : itoa](exercises/exercise3-4.md)<br>
 [Exercise 3-5 : itob](exercises/exercise3-5.md)<br>
 [Exercise 3-6 : itoa with min width](exercises/exercise3-6.md)<br>
+
+### Functions and Program Structure
+[Exercise 4-1 : rightmost pattern match](exercises/exercise4-1.md)<br>
