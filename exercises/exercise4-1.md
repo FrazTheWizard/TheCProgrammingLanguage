@@ -40,7 +40,7 @@ int strrindex(char s[], char t[])
 
 ## Output
 <p align="center">
-    <image src="../assets/exercise4-1.jpg" alt="output for exercise4-1" />
+    Just returns an integer number, no need for image
 </p>
 
 [Back to Main](../readme.md)
