@@ -53,3 +53,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 
 ### Functions and Program Structure
 [Exercise 4-1 : rightmost pattern match](exercises/exercise4-1.md)<br>
+[Exercise 421 : atof with scientific notation](exercises/exercise4-2.md)<br>
