@@ -174,7 +174,7 @@ void ungetch(int c) /* push character back on input */
 
 ## Output
 <p align="center">
-    <image src="../assets/exercise4-3_output.png" alt="output for exercise4-3" />
+    <image src="../assets/exercise4-3_output.jpg" alt="output for exercise4-3" />
 
 </p>
 
