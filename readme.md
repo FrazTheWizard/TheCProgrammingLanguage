@@ -56,3 +56,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 4-2 : atof with scientific notation](exercises/exercise4-2.md)<br>
 [Exercise 4-3 : extend calculator - modulus and negative](exercises/exercise4-3.md)<br>
 [Exercise 4-4 : extend calculator - print, dup, swap, clear](exercises/exercise4-4.md)<br>
+[Exercise 4-5 : extend calculator - sin, exp, pow](exercises/exercise4-5.md)<br>
