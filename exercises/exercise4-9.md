@@ -7,7 +7,7 @@ This one sent me on a rabbit hole!
 
 TLDR - the buffer holding input characters `char buf[BUFSIZE];` should be an `int`.
 
-I realised a bug to terminate the program would be send the character that was equal to the value of EOF (-1). But I didn't find it easy to do.
+I realised a bug to terminate the program would be to send the character that was equal to the value of EOF (-1). But I didn't find it easy to do.
 
 As I understand now, a lot of the "why?" confusion came from character encodings and displaying characters through different tools.
 Values would dispay differently on every tool I was using:
