@@ -60,3 +60,5 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 4-6 : extend calculator - variables](exercises/exercise4-6.md)<br>
 [Exercise 4-7 : extend calculator - push back string](exercises/exercise4-7.md)<br>
 [Exercise 4-8 : extend calculator - single push back char ](exercises/exercise4-8.md)<br>
+[Exercise 4-9 : extend calculator - pushed back EOF](exercises/exercise4-9.md)<br>
+[Exercise 4-10 : extend calculator - getline](exercises/exercise4-10.md)<br>
