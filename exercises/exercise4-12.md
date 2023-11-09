@@ -49,12 +49,11 @@ int main()
 void itoa_recursive(int n, char s[])
 {
     static int i;
-    static int sign;
     static int calls = 0;   /* to handle inital recursive call */
     
-    if (calls == 0){        /* inital recursive call */
+    if (calls == 0) {       /* inital recursive call */
         i = 0;
-        if((sign = n) < 0) {
+        if(n < 0) {             /* handle negative number */
             n = -n;
             s[i++] = '-';
         }    
