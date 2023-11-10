@@ -51,7 +51,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 3-5 : itob](exercises/exercise3-5.md)<br>
 [Exercise 3-6 : itoa with min width](exercises/exercise3-6.md)<br>
 
-### Functions and Program Structure
+### 4. Functions and Program Structure
 [Exercise 4-1 : rightmost pattern match](exercises/exercise4-1.md)<br>
 [Exercise 4-2 : atof with scientific notation](exercises/exercise4-2.md)<br>
 [Exercise 4-3 : extend calculator - modulus and negative](exercises/exercise4-3.md)<br>
@@ -64,3 +64,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 4-10 : extend calculator - getline](exercises/exercise4-10.md)<br>
 [Exercise 4-11 : extend calculator - static variable](exercises/exercise4-11.md)<br>
 [Exercise 4-12 : itoa recursive](exercises/exercise4-12.md)<br>
+[Exercise 4-13 : reverse recursive](exercises/exercise4-13.md)<br>
