@@ -66,3 +66,6 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 4-12 : recursive itoa](exercises/exercise4-12.md)<br>
 [Exercise 4-13 : recursive reverse](exercises/exercise4-13.md)<br>
 [Exercise 4-14 : macro swap](exercises/exercise4-14.md)<br>
+
+### 5. Pointers and Arrays
+[Exercise 5-1 : getint](exercises/exercise5-1.md)<br>
