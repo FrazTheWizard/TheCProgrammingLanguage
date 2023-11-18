@@ -18,6 +18,7 @@ I tried to stay within the `getint` style of program structure, but didn't find 
 
 ### Note
 Carried over idea from previous exercise so that `getfloat` does not consider `'+'` or `'-'` as a `0`
+
 Also, included that `getfloat` can now discard random input characters (as I have shown in output section), which was bugging me
 
 ## Code
