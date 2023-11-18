@@ -1,6 +1,6 @@
 # Exercise 5-2
 
-> Write getfloat, the floating-point analog of getint. What type does getfloat return as it function value?
+> Write **getfloat**, the floating-point analog of **getint**. What type does **getfloat** return as its function value?
 
 ## Process
 In direct answer to the question, I think `getfloat` should also return an `int` (same as `getint`). 
@@ -15,6 +15,10 @@ I tried to stay within the `getint` style of program structure, but didn't find 
 3. loop over each input character until we are happy that we have a valid chunk of input
 4. convert chunk of input to a float using `atof` from `stdlib.h` as shown in previous Reverse Polish Calculator exercises
 5. put float in array
+
+### Note
+Carried over idea from previous exercise so that `getfloat` does not consider `'+'` or `'-'` as a `0`
+Also, included that `getfloat` can now discard random input characters (as I have shown in output section), which was bugging me
 
 ## Code
 ```c
@@ -34,7 +38,7 @@ int main()
             ;
         
         for (int i = 0; i < SIZE; i++)
-            printf("%d: %.8f\n", i,  array[i]);
+            printf("%d: %.3f\n", i,  array[i]);
 }
 
 int getch(void);
@@ -104,7 +108,7 @@ void ungetch(int c) /* push character back on input */
 
 ## Output
 <p align="center">
-      <image src="../assets/exercise5-2.jpg" alt="output for exercise5-2" />
+      <image src="../assets/exercise5-2_working.jpg" alt="output for exercise5-2" />
 </p>
 
 [Back to Main](../readme.md)
