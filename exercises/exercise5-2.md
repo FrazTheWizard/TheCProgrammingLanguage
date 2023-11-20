@@ -21,6 +21,17 @@ Carried over idea from previous exercise so that `getfloat` does not consider `'
 
 Also, included that `getfloat` can now discard random input characters (as I have shown in output section), which was bugging me
 
+## Edit 20 Nov 2023
+Seems I missed some of the instructions:
+> Our version of getint returns EOF for end of file zero if the next input is not a number, and a positive value if the input contains a valid number.
+
+So I guess this means the calling function, which in this case is `main` should also check for the return value `getfloat` being a zero, which makes sense
+
+Looking at solution by zer0325 ([youtube](https://www.youtube.com/watch?v=eDyLndwbR4s), [github](https://github.com/zer0325/KnR-Exercise-Solution/blob/master/Chapter/05/Exercise/5-02.c)),
+I can see how you can do the `char` digits to `float` conversion by storing the fractional part in a new variable and dividing it at the end
+
+I won't rewrite my solution, as it works, but it is good to know a way to write it without another external library and probably the way it was intended to be written by the authors.
+
 ## Code
 ```c
 #include <stdio.h>
