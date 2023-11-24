@@ -12,6 +12,29 @@ I found some things helpful in initally building the function:
 Then once I had a working function that processed the test strings correctly:
 - try to break the function using different input strings. If it breaks, modify the function and add that input to the test strings
 
+## Deep Thoughts
+While looking at some other [solutions](https://clc-wiki.net/wiki/K%26R2_solutions:Chapter_5:Exercise_4) I can see more elegant and possibly more efficent solutions
+
+I like my function because it doesn't use any external libraries, it's sort of self contained logic using atomic building blocks of c. 
+Maybe this adds some more lines to read, but in the long run, I think this keeps the program simple for future modification. 
+Maybe in the context of a larger program I would extract similar logic into a function, but here I like the non library approach.
+
+I also find readability flow of the my function pretty good, it's one loop of the whole string processing each character.
+
+I did like the solution by **Kirill Yatsenko**
+```c
+int strend(const char* s, const char* t)
+{
+    s += strlen(s) - strlen(t);
+
+    while(*s && *s++ == *t++);
+
+    return !*s;
+}
+```
+Apart from being three lines of code, which is a small amount of code, I also liked the method of jumping to the position where `t` *should* be in `s` and starting there, because there's no use in looking elsewhere.
+Seems kind of an obvious way to process the data now.
+
 ## Code
 ```c
 #include <stdio.h>
