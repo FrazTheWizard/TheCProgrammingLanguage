@@ -9,7 +9,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 1-1  : hello world](exercises/exercise1-1.md)<br>
 [Exercise 1-2  : escape characters](exercises/exercise1-2.md)<br>
 [Exercise 1-3  : printf](exercises/exercise1-3.md)<br>
-[Exercise 1-4  : celsisus to fahrenheit](exercises/exercise1-4.md)<br>
+[Exercise 1-4  : celsius to fahrenheit](exercises/exercise1-4.md)<br>
 [Exercise 1-5  : reverse for loop](exercises/exercise1-5.md)<br>
 [Exercise 1-6  : getchar](exercises/exercise1-6.md)<br>
 [Exercise 1-7  : EOF](exercises/exercise1-7.md)<br>
