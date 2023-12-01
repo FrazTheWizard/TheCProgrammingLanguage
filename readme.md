@@ -72,3 +72,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 5-2 : getfloat](exercises/exercise5-2.md)<br>
 [Exercise 5-3 : strcat](exercises/exercise5-3.md)<br>
 [Exercise 5-4 : strend](exercises/exercise5-4.md)<br>
+[Exercise 5-5 : strncpy, strncat, strncmp](exercises/exercise5-5.md)<br>
