@@ -28,10 +28,10 @@ int main(){
 ```
 ## Output
 <p align="center">
-    <image src="../assets/exercise1-8_output1.jpg" alt="output for exercise1-8" />
+    <image src="../assets/exercise1-9_output1.jpg" alt="output for exercise1-8" />
 </p>
 <p align="center">
-    <image src="../assets/exercise1-8_output2.jpg" alt="output for exercise1-8" />
+    <image src="../assets/exercise1-9_output2.jpg" alt="output for exercise1-8" />
 </p>
 
 [Back to Main](../readme.md)
