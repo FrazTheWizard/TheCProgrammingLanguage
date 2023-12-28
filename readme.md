@@ -21,7 +21,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 1-13 : word length histograms](exercises/exercise1-13.md)<br>
 [Exercise 1-14 : letter frequency histogram](exercises/exercise1-14.md)<br>
 [Exercise 1-15 : fahrenheit to celcius](exercises/exercise1-15.md)<br>
-[Exercise 1-16 : ](exercises/exercise1-16.md)<br>
+[Exercise 1-16 : longest input line ](exercises/exercise1-16.md)<br>
 [Exercise 1-17 : ](exercises/exercise1-17.md)<br>
 [Exercise 1-18 : ](exercises/exercise1-18.md)<br>
 [Exercise 1-19 : ](exercises/exercise1-19.md)<br>
