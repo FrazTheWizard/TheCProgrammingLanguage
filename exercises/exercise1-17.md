@@ -21,12 +21,13 @@ I liked ideas in two other [solutions](https://clc-wiki.net/wiki/K%26R2_solution
 - didn't contain any other functions, sort of minimal solution
 - commented every 'obvious' line intention
 
-**Note:** Program may not capture last line in input if does not end in newline character
+Lastly there is a check after the while loop to see if the file ended without a newline character but still has not printed the final char count
 
 ## Final Code
 ```c
 #include <stdio.h>
-#define MAXLINELENGTH 81
+
+#define MAXCHARLENGTH 80 /* not including newline and null terminator */
 #define FALSE   0
 #define TRUE    1
 
@@ -34,14 +35,14 @@ int getline(char line[], int limit);
 
 int main()
 {
-    char line[MAXLINELENGTH];
-    int len, totallen = 0, overmaxlen = 0;
+    char line[MAXCHARLENGTH + 2]; /* +2 for newline and null terminator */
+    int len, totallen = 0, overmaxlen = FALSE;
     
-    while((len = getline(line, MAXLINELENGTH)) != 0){
+    while((len = getline(line, MAXCHARLENGTH + 2)) != 0){
         switch (overmaxlen) {
             case FALSE:
                 /* if line is max length and last char is not newline */
-                if(len == (MAXLINELENGTH-1) && (line[len-1] != '\n')){
+                if(len == (MAXCHARLENGTH+1) && (line[len-1] != '\n')){
                     printf("%s", line); /* print line chunk */
                     totallen = len;     /* begin running total */
                     overmaxlen = TRUE;  /* next line will be part of this line */
@@ -50,13 +51,17 @@ int main()
             case TRUE:
                 printf("%s", line); /* print line chunk */
                 totallen += len;    /* add to running total */  
-                if(line[len-1] == '\n'){    /* reached end of extended line */
-                    overmaxlen = FALSE; /* end line gathering  */
-                    printf("line length: %d\n\n", totallen); /* printout */
+                if(line[len-1] == '\n'){ /* reached end of extended line */
+                    overmaxlen = FALSE; /* end line gathering */
+                    printf("line length: %d\n", totallen-1); /* printout */
                 }            
                 break;
         }
     }
+	
+	/* if last line did not have a '\n' as the last character */
+	if (len == 0 && overmaxlen == TRUE)
+		printf("\nline length: %d\n", totallen); /* printout */
         
     return 0;
 }
