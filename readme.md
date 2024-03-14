@@ -23,7 +23,7 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 1-15 : fahrenheit to celcius](exercises/exercise1-15.md)<br>
 [Exercise 1-16 : longest input line ](exercises/exercise1-16.md)<br>
 [Exercise 1-17 : lines over maxlen](exercises/exercise1-17.md)<br>
-[Exercise 1-18 : ](exercises/exercise1-18.md)<br>
+[Exercise 1-18 : remove trailing blanks](exercises/exercise1-18.md)<br>
 [Exercise 1-19 : ](exercises/exercise1-19.md)<br>
 [Exercise 1-20 : detab](exercises/exercise1-20.md)<br>
 [Exercise 1-21 : entab](exercises/exercise1-21.md)<br>
