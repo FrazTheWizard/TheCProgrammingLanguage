@@ -6,7 +6,10 @@ Pretty straight forward exercise.
 
 As the exercise didn't state to pass the length of the string, I made a way to find the length internal to the reverse function
 
-Basic process I used was first find the end of the string. Then use two counters from beginning and end, swapping each character until they meet in the middle.
+Basic process I used was
+1. find the length of characters in the string. Remembering that a string WILL end in `'\0'` and MAY have `'\n'` before that
+2. convert the length to the index of the last char (just -1 from the length)
+3. use two counters from beginning index and end index, swapping each character until they meet in the middle.
 
 Also I think it's obvious, but I'm not swapping the `'\n'` and `'\0'` characters, because that seems impractical
 
