@@ -42,7 +42,7 @@ void reverse(char s[]) {
 	
 	/* if the length of string is over 1 */
 	if(j > 1) {
-		/* turn length into index */
+		/* turn length into index of last char in string */
 		j--;
 		
 		/*	starting at beginning and ending of the string, work towards the 
