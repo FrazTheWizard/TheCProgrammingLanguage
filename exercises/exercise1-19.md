@@ -4,6 +4,8 @@
 ## Process
 Pretty straight forward exercise. 
 
+As the exercise didn't state to pass the length of the string, I made a way to find the length internal to the reverse function
+
 Basic process I used was first find the end of the string. Then use two counters from beginning and end, swapping each character until they meet in the middle.
 
 Also I think it's obvious, but I'm not swapping the `'\n'` and `'\0'` characters, because that seems impractical
