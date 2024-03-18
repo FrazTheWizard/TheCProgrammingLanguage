@@ -6,10 +6,10 @@
 Found this question a little confusing at first. I think the question sort of assumes I know how the rest of the program goes together and what kind of input the program will take, without specifying it. 
 Maybe back in Unix days this was an obvious program, but it's not obvious to me.
 
-Like if the program recives an input character that isn't `isspace`, `isdigit`, `+`, `-` or `EOF` the program goes into an infinte loop of `getch` <-> `ungetch` till the end of the array. 
+Like if the program receives an input character that isn't `isspace`, `isdigit`, `+`, `-` or `EOF` the program goes into an infinte loop of `getch` <-> `ungetch` till the end of the array. 
 So I guess we are assuming the input is going to be clean?
 
-My assumption is that the program is handling input, maybe piped in from another file, delimited by unkown amount of spaces, with some numbers prefixed with `-` or `+`.
+My assumption is that the program is handling input, maybe piped in from another file, delimited by unknown amount of spaces, with some numbers prefixed with `-` or `+`.
 
 Something like this
 ```
