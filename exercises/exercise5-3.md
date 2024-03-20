@@ -7,9 +7,9 @@ Pretty straightforward code wise
 
 I was a little stumped on how the array concatenation actually worked because up until now, I had understood that arrays were fixed size, but then here we are changing the size of it
 
-I noticed that using `sizeof()` on one of these modified arrays gives the original size, but the printing functions (which just look for null terminattion) go over the size into other memory
+I noticed that using `sizeof()` on one of these modified arrays gives the original size, but the printing functions (which just look for null termination) go over the size into other memory
 
-This [stackoverflow](https://stackoverflow.com/questions/1239938/accessing-an-array-out-of-bounds-gives-no-error-why) answer explains that going out of bounds in undefined behaviour. 
+This [stackoverflow](https://stackoverflow.com/questions/1239938/accessing-an-array-out-of-bounds-gives-no-error-why) answer explains that going out of bounds is undefined behaviour. 
 So I guess the book is showing that you can do these things, but seems this is not a safe way to do it?
 
 ## Code
