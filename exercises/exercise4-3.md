@@ -3,7 +3,7 @@
 > Given the basic framework, it's straightforward to extend the calculator. Add the modulus (%) operator and provisions for negative numbers.
 
 ## Process
-Although the code is quite simple and could have bashed out a solution, I decided to spent some time learning the things I didnt understand.
+Although the code is quite simple and could have bashed out a solution, I decided to spend some time learning the things I didnt understand.
 
 My first misunderstanding came when I tried to input data into the provided calculator program.
 My journey to understanding of what a terminal is lead me to a few interesting resources.
