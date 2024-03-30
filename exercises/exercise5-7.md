@@ -164,7 +164,10 @@ void swap(char *v[], int i, int j)
 
 ## Output
 <p align="center">
-  <image src="../assets/exercise5-7.jpg" alt="output for exercise5-7" />
+  <image src="../assets/exercise5-7_a.jpg" alt="output for exercise5-7" />
+</p>
+<p align="center">
+  <image src="../assets/exercise5-7_b.jpg" alt="output for exercise5-7" />
 </p>
 
 [Back to Main](../readme.md)
