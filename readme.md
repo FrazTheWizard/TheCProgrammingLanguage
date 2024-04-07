@@ -76,3 +76,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 5-6 : rewrite appropriate programs](exercises/exercise5-6.md)<br>
 [Exercise 5-7 : array vs alloc speed](exercises/exercise5-7.md)<br>
 [Exercise 5-8 : multidimensional arrays](exercises/exercise5-8.md)<br>
+[Exercise 5-9 : pointers vs indexing](exercises/exercise5-9.md)<br>
