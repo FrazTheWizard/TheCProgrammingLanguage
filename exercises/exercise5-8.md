@@ -113,7 +113,7 @@ int main()
 
 ## Output
 <p align="center">
-  <image src="../assets/exercise5-8.jpg" alt="output for exercise8" />
+  <image src="../assets/exercise5-8.jpg" alt="output for exercise5-8" />
 </p>
 
 [Back to Main](../readme.md)
