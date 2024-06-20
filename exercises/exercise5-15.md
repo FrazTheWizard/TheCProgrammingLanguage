@@ -251,7 +251,7 @@ char *alloc(int n)
   <image src="../assets/exercise5-15_cmds.jpg" alt="output for exercise 5-15_cmds" />
 </p>
 <p align="center">
-  <image src="../assets/exercise5-15_data.jpg" alt="output for exercise 5-15_data_and_result" />
+  <image src="../assets/exercise5-15_data_and_result.jpg" alt="output for exercise 5-15_data_and_result" />
 </p>
 
 [Back to Main](../readme.md)
