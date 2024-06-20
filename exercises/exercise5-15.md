@@ -1,4 +1,4 @@
-# Exercise 5-14
+# Exercise 5-15
 > Add the option `-f` to fold upper and lower case together, so that case distinctions are not made during sorting; for example, `a` and `A` compare equal.
 
 ## Process
@@ -248,10 +248,10 @@ char *alloc(int n)
 
 ## Output
 <p align="center">
-  <image src="../assets/exercise5-14_cmds.jpg" alt="output for exercise 5-14_cmds" />
+  <image src="../assets/exercise5-15_cmds.jpg" alt="output for exercise 5-15_cmds" />
 </p>
 <p align="center">
-  <image src="../assets/exercise5-14_data.jpg" alt="output for exercise 5-14_data_and_result" />
+  <image src="../assets/exercise5-15_data.jpg" alt="output for exercise 5-15_data_and_result" />
 </p>
 
 [Back to Main](../readme.md)
