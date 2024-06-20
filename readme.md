@@ -82,3 +82,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 5-12 : extend entab/detab with -m +n](exercises/exercise5-12.md)<br>
 [Exercise 5-13 : tail](exercises/exercise5-13.md)<br>
 [Exercise 5-14 : sort -r](exercises/exercise5-14.md)<br>
+[Exercise 5-15 : sort -f](exercises/exercise5-15.md)<br>
