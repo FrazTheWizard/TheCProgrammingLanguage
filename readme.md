@@ -85,3 +85,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 5-15 : sort -fold](exercises/exercise5-15.md)<br>
 [Exercise 5-16 : sort -directoryorder](exercises/exercise5-16.md)<br>
 [Exercise 5-17 : sort fields](exercises/exercise5-17.md)<br>
+[Exercise 5-18 : dcl](exercises/exercise5-18.md)<br>
