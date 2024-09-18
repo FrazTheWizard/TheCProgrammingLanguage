@@ -9,9 +9,14 @@ I spent a while reading and playing around with the reference manual sections on
 It has actually been nice to see C formally laid out like this to see the limits of the grammer,
 rather than a 'usually works but vague understanding' of what precisely is going on. 
 
-I also feel like I have a better grasp of grammer parsing vs semantic meaning, where the language
-is allowed to grammatically express something with it not being caught as an error until semantic parsing, 
-so that the grammer can be kept simple. I like that idea in general.
+I also feel like I have a better grasp of grammer parsing vs semantic meaning parsing, where the language
+is allowed to grammatically express something without knowing how it all fits together yet. This is a way to
+try to keep the grammer parsing simple and modular. I found out about the [lexer hack](https://en.wikipedia.org/wiki/Lexer_hack) 
+which passes semantic meaning back to the grammer parsing to help parsing, which is considered bad flow.
+
+This exercise also had me bumping up against my understanding of precedence order. One technique for figuring
+it out is the [spiral rule](https://c-faq.com/decl/spiral.anderson.html), but I found [postfix > prefix](https://stackoverflow.com/questions/16260417/the-spiral-rule-about-declarations-when-is-it-in-error)
+easier to think about when determining an evaluation order.
 
 ## Approach
 My approach was try to keep to the original `dcl` program, add new syntax to `gettoken` and add additional 
@@ -20,8 +25,15 @@ recursive functions.
 The direct syntax parsing gets handled by `gettoken` which has become kind of large, but it's nice to have
 just one function that handles all the tricky stuff, then the recursive parsing handles the logic.
 
-I came up with a solution for determining the difference between the declaration identifier and a 
-parameter declaration in `dirdcl` which feels a bit wonky and could maybe be improved. 
+Comma separators in a declaration, print out the declaration, but keep the specifiers for the next part.
+
+I wanted function parameters to use the same arrays as declarations, so after the recursive functions capture the 
+storage, qualifiers and types, the output is stored in `returnspec` until needed, which frees them up for possible 
+function parameters. 
+
+`dirdcl` determines between declaration `identifiers` and function `paramidentifiers` by assuming the first identifier 
+in a declaration is for the declaration and all following identifiers must be for parameters, which feels a bit wonky and 
+could maybe be improved, but works.
 
 ## Decisions
 - lines need to terminate with `;` to be considered valid
@@ -69,7 +81,7 @@ type-qualifier-list:
 
 parameter-type-list:
     parameter-list
-    parameter-list , ...
+    parameter-list , ... // didn't do this one
     
 parameter-list:
     parameter-declaration,
@@ -77,7 +89,7 @@ parameter-list:
     
 parameter-declaration:
     declaration-specifiers declarator
-    declaration-specifiers abstract-declarator*opt*
+    declaration-specifiers abstract-declarator*opt* // didn't do this one
 ```
 
 
