@@ -99,7 +99,6 @@ int getword(char *word, int lim)
             skipcomment(c);            
             return '/';
         }
-        return EOF; /* invalid syntax */
     }
     
     if (c == '#') {
