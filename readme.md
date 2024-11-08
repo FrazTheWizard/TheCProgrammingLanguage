@@ -93,3 +93,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 6-1 : getword](exercises/exercise6-1.md)<br>
 [Exercise 6-2 : word count](exercises/exercise6-2.md)<br>
 [Exercise 6-3 : line number count](exercises/exercise6-3.md)<br>
+[Exercise 6-4 : word count decreasing order](exercises/exercise6-4.md)<br>
