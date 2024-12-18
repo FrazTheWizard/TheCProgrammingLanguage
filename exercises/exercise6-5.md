@@ -16,11 +16,8 @@ I reduced the hashtable size to 2 to make the visual example smaller and grouped
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <ctype.h>
 
 #define HASHSIZE 2
-#define BUFSIZE 2
-#define SIZE 100
 
 struct nlist {      /* table entry */
     struct nlist *next; /* next entry in chain */
@@ -28,20 +25,14 @@ struct nlist {      /* table entry */
     char *defn;         /* replacement text */
 };
 
-int getch(void);
-void ungetch(int c);
-int getword(char *word, int lim);
 unsigned hash(char *s);
 struct nlist *lookup(char *s);
 struct nlist *install(char *name, char *defn);
-char *my_strdup(char *);
 void undef(char *name);
 void printtab(void);
 void removeandprint(char *name);
 
 static struct nlist *hashtab[HASHSIZE]; /* pointer table */
-char buf[BUFSIZE];  /* buffer for ungetch */
-int bufp = 0;       /* next free position in buf */
 
 int main()
 {
@@ -148,54 +139,6 @@ struct nlist *install(char *name, char *defn)
     if ((np->defn = strdup(defn)) == NULL)
         return NULL;
     return np;
-}
-
-/* my_strdup: make a duplicate of s */
-char *my_strdup(char *s)
-{
-    char *p;
-    
-    p = (char *) malloc(strlen(s) + 1); /* +1 for '\0' */
-    if (p != NULL)
-        strcpy(p, s);
-    return p;
-}
-
-/* getword: get next word or character from input */
-int getword(char *word, int lim)
-{
-    int c, getch(void);
-    void ungetch(int);
-    char *w = word;
-    
-    while (isspace(c = getch()))
-        ;
-    if (c != EOF)
-        *w++ = c;
-    if (!isalpha(c)) {
-        *w = '\0';
-        return c;
-    }
-    for ( ; --lim > 0; w++)
-        if (!isalnum(*w = getch())) {
-            ungetch(*w);
-            break;
-        }
-    *w = '\0';
-    return word[0];
-}
-
-int getch(void) /* get a (possibly pushed back) character */
-{
-    return (bufp > 0) ? buf[--bufp] : getchar();
-}
-
-void ungetch(int c) /* push character back on input */
-{
-    if (bufp >= BUFSIZE)
-        printf("ungetch: too many characters\n");
-    else
-        buf[bufp++] = c;
 }
 ```
 
