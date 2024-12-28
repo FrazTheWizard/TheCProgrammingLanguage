@@ -99,3 +99,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 
 ### 7. Input and Output
 [Exercise 7-1 : argv[0]](exercises/exercise7-1.md)<br>
+[Exercise 7-2 : arbitrary input](exercises/exercise7-2.md)<br>
