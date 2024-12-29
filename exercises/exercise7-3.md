@@ -5,7 +5,7 @@
 ## Process
 Pretty straight forward, just added some extra case's to the switch statement
 
-Checked C answer book whih had a nice solution that collected everything between `%` - `char` as the format for the printf
+Checked C answer book which had a nice solution that collected everything between `%` - `char` as the format for the printf
 
 ## Code
 ```c
