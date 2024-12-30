@@ -4,11 +4,13 @@
 
 ## Process
 Found this exercise more challenging than the previous one.
-I think partly that's because I have no experience with `scanf`, so needed to play around with it for a while before I understood what it does.
+I think partly that's because I have no experience with `scanf`, so needed to play around with it for a while before I understood how it behaves.
 
 I implemented a similar method to the previous answer in the C Answers book by collecting a format string and passing it to `scanf`.
-`minscanf` supports `%d`, `%i`, `%o`, `%u`, `%x`, `%c`, `%s`, `%f`.
-It also supports some other feature like spaces, words but not support for things like (*) suppression character.
+
+`minscanf` supports `%d`, `%i`, `%o`, `%u`, `%x`, `%c`, `%s`, `%f` and some specifications like spaces and words but didn't include support for things like the `*` (suppression character).
+
+Definitely not a full solution and could be improved, but I think I got the gist of it.
 
 ## Code
 ```c
@@ -55,6 +57,7 @@ void minscanf(char *fmt, ...)
                 scanf(fmtstr, dval);
                 break;
             case 'i':
+                /* according to spec %i can take octal */
                 ival = va_arg(ap, int *);
                 scanf(fmtstr, ival);
                 break;
