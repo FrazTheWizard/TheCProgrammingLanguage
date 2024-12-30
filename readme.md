@@ -101,3 +101,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 7-1 : argv[0]](exercises/exercise7-1.md)<br>
 [Exercise 7-2 : arbitrary input](exercises/exercise7-2.md)<br>
 [Exercise 7-3 : minprintf](exercises/exercise7-3.md)<br>
+[Exercise 7-4 : minscanf](exercises/exercise7-4.md)<br>
