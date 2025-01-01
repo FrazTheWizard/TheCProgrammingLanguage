@@ -23,6 +23,8 @@ One functionality I wanted to retain from the original calculator was the abilty
 
 should produce the same result.
 
+In order to deal with not finding a way to read `\n`, I added a `p` case to print whatever is on the stack instead.
+
 My solution works, but it does feel a bit clunky and I wonder if some execution paths might produce errors...
 
 ### Other Answers - CLC Wiki
