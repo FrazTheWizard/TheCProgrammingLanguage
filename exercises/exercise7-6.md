@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     char s1[MAX], s2[MAX], *n1, *n2, *prog = argv[0];
     
     if (argc != 3) {
-        fprintf(stderr, "%s: requires two files to compare", prog);
+        fprintf(stderr, "%s: requires two files to compare\n", prog);
         exit(1);
     } else {
         n1 = argv[1];
@@ -36,12 +36,12 @@ int main(int argc, char *argv[])
     }
     
     if ((f1 = fopen(argv[1], "r")) == NULL) {
-        fprintf(stderr, "error reading file: %s", argv[1]);
+        fprintf(stderr, "error reading file: %s\n", argv[1]);
         exit(1);
     }
     
     if ((f2 = fopen(argv[2], "r")) == NULL) {
-        fprintf(stderr, "error reading file: %s", argv[2]);
+        fprintf(stderr, "error reading file: %s\n", argv[2]);
         exit(1);
     }
     
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
 </p>
 
 <p align="center">
-  <image src="../assets/exercise7-6_data_and_result.jpg" alt="output for exercise7-6 data and result" />
+  <image src="../assets/exercise7-6_data_and_results.jpg" alt="output for exercise7-6 data and result" />
 </p>
 
 [Back to Main](../readme.md)
