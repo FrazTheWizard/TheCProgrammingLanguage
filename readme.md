@@ -105,3 +105,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 7-5 : rewrite postfix calculator with scanf](exercises/exercise7-5.md)<br>
 [Exercise 7-6 : file diff](exercises/exercise7-6.md)<br>
 [Exercise 7-7 : find pattern in files or stdin](exercises/exercise7-7.md)<br>
+[Exercise 7-8 : print files with formfeed](exercises/exercise7-8.md)<br>
