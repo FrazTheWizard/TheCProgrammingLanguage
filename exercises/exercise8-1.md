@@ -92,7 +92,7 @@ void fstdout(const char *s)
         if ((fd = open(s, O_RDONLY)) == -1)
             error("opening %s", s);
     
-    while (((n = read(fd, &buf, BUFSIZ)) > 0))
+    while (((n = read(fd, buf, BUFSIZ)) > 0))
         if (write(1, &buf, n) != n) 
             error("writing to %s", s);
     
