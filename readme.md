@@ -107,3 +107,6 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 7-7 : find pattern in files or stdin](exercises/exercise7-7.md)<br>
 [Exercise 7-8 : print files with formfeed](exercises/exercise7-8.md)<br>
 [Exercise 7-9 : isupper - speed vs space](exercises/exercise7-9.md)<br>
+
+### 8. The UNIX System Interface
+[Exercise 8-1 : cat with syscalls](exercises/exercise8-1.md)<br>
