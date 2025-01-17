@@ -67,6 +67,7 @@ Write-Output ""
 #include <stdlib.h>
 #include <fcntl.h>
 #include <stdarg.h>
+#include <string.h>
 
 void fstdout(const char *s);
 void error(char *fmt, ...);
@@ -88,7 +89,7 @@ void fstdout(const char *s)
     char buf[BUFSIZ];
     
     if (strcmp(s, "stdin") != 0)
-        if ((fd = open(s, 0666)) == -1)
+        if ((fd = open(s, O_RDONLY)) == -1)
             error("opening %s", s);
     
     while (((n = read(fd, &buf, BUFSIZ)) > 0))
