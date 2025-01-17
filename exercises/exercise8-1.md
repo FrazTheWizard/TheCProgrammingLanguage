@@ -118,7 +118,7 @@ void error(char *fmt, ...)
 
 ## Output
 <p align="center">
-  <image src="../assets/exercise9-1_cmds.jpg" alt="output for exercise8-1 cmds" />
+  <image src="../assets/exercise8-1_cmds.jpg" alt="output for exercise8-1 cmds" />
 </p>
 
 <p align="center">
