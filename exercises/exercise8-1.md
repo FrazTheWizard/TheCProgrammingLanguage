@@ -61,6 +61,11 @@ Write-Output "average $($avg/10)"
 Write-Output ""
 ```
 
+### Other Solutions - CLC Wiki and C Answer Book
+After looking at other solutions, I don't understand why I restructured the program at all, maybe I was tired...
+
+I should have just copied the format of the original and just replaced the standard library calls with system calls...
+
 ## Code
 ```c
 #include <stdio.h>
@@ -104,6 +109,7 @@ void fstdout(const char *s)
 }
 
 /* error: print an error message and die */
+/* from page 174 in K&R */
 void error(char *fmt, ...)
 {
     va_list args;
