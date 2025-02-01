@@ -1,6 +1,6 @@
 # Exercise 8-2
 
-> Rewrite fopen and _fillbuf with fields instad of explicit bit operations. Compare code size and execution speed.
+> Rewrite fopen and _fillbuf with fields instead of explicit bit operations. Compare code size and execution speed.
 
 ## Process
 This was a fairly straightforward exercise, rewriting `fopen` and `_fillbuf` using bitfields with a manual search and replace.
