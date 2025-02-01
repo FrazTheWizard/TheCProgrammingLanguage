@@ -110,3 +110,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 
 ### 8. The UNIX System Interface
 [Exercise 8-1 : cat with syscalls](exercises/exercise8-1.md)<br>
+[Exercise 8-2 : fopen and _fillbuf with bit-fields](exercises/exercise8-2.md)<br>
