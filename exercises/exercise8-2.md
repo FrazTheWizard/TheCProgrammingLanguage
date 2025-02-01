@@ -62,6 +62,10 @@ The final anonymous solution pointed that out and had a pretty good overview of 
 the bitfield structure into `_iobuf`, which I didn't think of. I also liked their method of testing the program by reading
 a large file, so I copied that for my test.
 
+### Other Solutions - C Answer Book
+Interesting to see that they explicitly set fields off, whereas I was relying on fields being defaulted to 0, which is error prone.
+Also they added another field of `is_buf` to complement `is_unbuf`, I suppose to be more explicit.
+
 ### Futher Research
 I was satisfied with my solution at that point, but I wanted to actually check if my code was doing what I 
 thought it was. 
