@@ -7,7 +7,7 @@ This one took me on a bit of a journey. Turns out I had the wrong understanding 
 
 I pieced together what I need to do from the existing code in the book and my own research. 
 I assume `_flushbuf` does the allocation and reseting like `_fillbuf`, then I assume `fflush` calls `_flushbuf` and then finally `fclose` calls `fflush`. 
-I made a simple example of the code working how I think it should, but honestly I a little confused on what exactly these functions should do.
+I made a simple example of the code working how I think it should, but honestly I am little confused on what exactly these functions should do.
 
 ### Research
 
