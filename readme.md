@@ -111,4 +111,5 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 ### 8. The UNIX System Interface
 [Exercise 8-1 : cat with syscalls](exercises/exercise8-1.md)<br>
 [Exercise 8-2 : fopen and _fillbuf with bit-fields](exercises/exercise8-2.md)<br>
-[Exercise 8-3 : _flushbuf, fflush and fclose](exercises/exercise8-3.md)<br>
+[Exercise 8-3 : flushbuf, fflush and fclose](exercises/exercise8-3.md)<br>
+[Exercise 8-4 : fseek](exercises/exercise8-4.md)<br>
