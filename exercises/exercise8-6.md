@@ -5,7 +5,18 @@
 ## Process
 This took me about three weeks of research and two minutes of writing the solution to the exercise.
 
-Just like last exercise, I spent a lot of time on windows specifics, and called win32 functions to build up `morecore`.
+- Decided to call malloc and then initialise to zero, seems more robust than multiple allocation paths.
+- Windows `VirtualAlloc` initalises to zero automatically, so `ccalloc` is not really necessary, but did it for the exercise anyway.
+- renamed functions to avoid clashing with the compilier, `mmalloc`, `ffree` and `ccalloc`
+- separated into three files `win32_stuff.h`, `malloc.h` and `exercise8-6.h` with some example code
+
+Just like last exercise, I spent a lot of time on windows specifics, and called win32 functions to build up `allocatemorespace`.
+
+I made the win32 code very specific for this exercise. 
+- only reserves a single block at Allocation Granularity size - usually 64KB
+- commits a minimum block of page size - usually 4KB
+- found a problem where you could commit memory you couldn't reserve, so I'm doing a manual check to only commit reserved memory
+- in a real allocator you could probably use `RESERVE|COMMIT` to allocate way more memory
 
 I decided to use the `memset` for the solution, but a for loop is probably the proper answer for this exercise.
 
