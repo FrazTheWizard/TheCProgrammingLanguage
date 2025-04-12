@@ -222,7 +222,7 @@ void *mmalloc(unsigned nbytes)
     unsigned nunits;
     
     nunits = (nbytes + sizeof(Header) - 1) / sizeof(Header) + 1;
-    if (freep == NULL) {
+    if ((prevp = freep) == NULL) {
         prevp = freep = &base;
         base.s.ptr = &base;
         base.s.size = 0;
