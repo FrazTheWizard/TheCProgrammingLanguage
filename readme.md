@@ -116,3 +116,4 @@ My journey going through all the exercises in the popular book by Dennis Ritchie
 [Exercise 8-5 : fsize](exercises/exercise8-5.md)<br>
 [Exercise 8-6 : calloc](exercises/exercise8-6.md)<br>
 [Exercise 8-7 : malloc error checking](exercises/exercise8-7.md)<br>
+[Exercise 8-8 : bfree](exercises/exercise8-8.md)<br>
